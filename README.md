@@ -1,3 +1,8 @@
-# css-comparison
-<p>For this project I will use CSS.  I will then compare this code the extact same project that uses Sass.</p>
-<p>[sass-comparison](https://github.com/rena-deane/sass-comparison/)</p>
+# CSS and Sass
+For my project I will apply CSS and convert to Sass
+
+## Campus Style Lecture
+- [ ] We will create a basic react app
+- [ ] Use Sass to style
+- [ ] Create Sass file and convert to CSS
+- [ ] Command Line : convert new style to CSS
