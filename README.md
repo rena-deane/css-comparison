@@ -12,7 +12,7 @@ How to use Sass to keep stylesheets well-organised
   - and more
 
 ## Using Sass
-Sass can be used in three ways
+There are different ways to start using Sass
   1. Command Line
   2. Standalone Ruby module
   3. As a plugin for any Rack-enabled framework, including Ruby on Rails and Merb
