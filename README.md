@@ -1,8 +1,15 @@
-# CSS and Sass
-For my project I will apply CSS and convert to Sass.
+# Sass Intro
+How to use Sass to keep stylesheets well-organised
 
-## Sass Documentation
+## What is Sass?
 [sass-lang.com](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
+- Sass is an extension of CSS.
+- Allows the use of 
+  - variables
+  - nested rules
+  - mixins
+  - inline imports,
+  - and more
 
 ## Prep for Campus Lecture
 - [ ] create a basic react app
