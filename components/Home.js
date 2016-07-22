@@ -1,15 +1,9 @@
 import React, { Component } from 'react'
-import Nav from './Navigation'
 
-class Home extends Component {
-  render() {
+export default class Home extends Component {
+  render (){
     return (
-      <div>
-        <h1>Yo my Home</h1>
-        <Nav />
-      </div>
+      <h1>Home</h1>
     )
   }
 }
-
-export default Home
