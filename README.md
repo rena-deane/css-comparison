@@ -34,3 +34,6 @@ It should return `Sass 3.4.22 (Selective Steve)`
 - [ ] use Sass to style
 - [ ] create new `style.sass` file and convert to CSS
 - [ ] Command Line : convert new style to CSS
+
+###Resources
+- To create logo I used [GraphicSprings](https://www.graphicsprings.com/start-your-logo)
