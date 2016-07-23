@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
-import App from './App'
-import Home from './Home'
-import About from './About'
-import Marae from './Marae'
-import Paikea from './Paikea'
+import App from '../components/App'
+import Home from '../components/Home'
+import About from '../components/About'
+import Marae from '../components/Marae'
+import Paikea from '../components/Paikea'
 
 export default class Routes extends Component {
   render (){

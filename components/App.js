@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Nav from './Navigation'
-import Routes from './routes'
 
 export default class App extends Component {
   render () {
