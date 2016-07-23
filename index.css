@@ -1,25 +1,145 @@
-html
+@import 'https://fonts.googleapis.com/css?family=Harmattan|Raleway:300,400';
+@import 'https://fonts.googleapis.com/css?family=Lobster';
+
+html,
 body {
-  background-color: #fffad5;
+  background-color: #fffcef;
+  font-family: 'Raleway', sans-serif;
   margin: 0;
 }
 
 img {
-  width: 100%;
-  height: auto;
+  width: 30%;
 }
 
 ul {
   padding: 0;
+  margin: 0;
 }
 
 li {
   list-style: none;
+  margin: 0 1em;
+  text-transform: uppercase;
+}
+
+h1, h2 {
+  color: #bd4932;
+  font-family: 'Lobster', cursive;
+  letter-spacing: .05em;
+  margin: 0.5em auto;
+  text-align: center;
+  width: 100%;
+}
+
+.about-item.weather {
+  color: #db9e36;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+img.icon {
+  width: 30%;
+}
+
+img.temp-icon {
+  width: 5%;
+}
+
+h4.temp-title {
+  margin-right: .4em;
+}
+
+.current-condition {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 70%;
 }
 
 #header-wrapper {
-  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
+
+#header {
+  background-color: #fff;
+  /*background-image: url('./images/rangitukia-header.png');*/
+  /*background-size: 100% 100%;*/
+  text-align: center;
+  width: 100%;
+}
+
+#nav-wrapper {
+  background-color: #38a7c1;
+  width: 100%;
+}
+
+.nav {
+  color: #fffcef;
+  text-decoration: none;
+}
+
+.nav:hover {
+  color: #ffd34e;
+}
+
+.nav.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: .5em;
+}
+
+#about-container {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.about-item {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+p {
+  line-height: 1.5em;
+  padding: 0 1em;
+  margin: 0;
+  text-align: justify;
+  text-align-last: center;
+}
+
+#home-intro:hover + .secret {
+  display: block;
+}
+
+.secret {
+  display: none;
+  width: 100%;
+}
+
+/*.about-item h2 {
+  padding-left: 0.5em;
+}*/
+

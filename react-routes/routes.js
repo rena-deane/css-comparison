@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 import App from '../components/App'
 import Home from '../components/Home'
-import About from '../components/About'
+import Education from '../components/Education'
 import Marae from '../components/Marae'
-import Paikea from '../components/Paikea'
+import Church from '../components/Church'
 
 export default class Routes extends Component {
   render (){
@@ -12,9 +12,9 @@ export default class Routes extends Component {
       <Router history={browserHistory}>
         <Route path="/" component={App}>
           <IndexRoute component={Home}></IndexRoute>
-          <Route path="about" component={About} />
+          <Route path="education" component={Education} />
           <Route path="marae" component={Marae} />
-          <Route path="te-ara-o-paikea" component={Paikea} />
+          <Route path="church" component={Church} />
         </Route>
       </Router>
     )

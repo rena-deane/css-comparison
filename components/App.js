@@ -9,9 +9,7 @@ export default class App extends Component {
 
         <div id='header-wrapper'>
 
-          <div id='logo'>
-            <Header />
-          </div>
+          <Header />
 
           <div id='nav-wrapper'>
             <Nav />
