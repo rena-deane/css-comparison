@@ -6,7 +6,6 @@ class Nav extends Component {
     return (
       <div className='navbar navbar-default'>
         <ul className='nav navbar-nav'>
-          <li><Link to="/">Rangitukia</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/marae">Marae</Link></li>
           <li><Link to="/te-ara-o-paikea">Paikea</Link></li>
