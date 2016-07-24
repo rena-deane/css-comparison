@@ -1,4 +1,4 @@
-# Sass Intro
+# Syntactically Awesome Stylesheets Intro
 How to use Sass to keep stylesheets well-organised
 
 ## What is Sass?
