@@ -12,13 +12,10 @@ How to use Sass to keep stylesheets well-organised
   - and more
 
 ## Getting started with Sass
-There are different ways to start using Sass
-  1. Command Line
-  2. Standalone Ruby module
-  3. As a plugin for any Rack-enabled framework, including Ruby on Rails and Merb
-  4. GUI Application
-    * [Koala](http://koala-app.com/) - open source
-    * [compass.app](http://compass.kkbox.com/) - Paid, open source
+- There are different ways to start using Sass.  Today we will focus on using Sass on the command line with [compass](http://compass-style.org/)
+- If you want to use a GUI then check out
+  * [Koala](http://koala-app.com/) - Open source
+  * [compass.app](http://compass.kkbox.com/) - Paid, Open source
 
 ### Command Line
 #### Install Sass
