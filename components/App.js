@@ -10,10 +10,6 @@ export default class App extends Component {
 
         <div id='header-wrapper'>
 
-          <Weather />
-
-          <Header />
-
           <div id='nav-wrapper'>
             <Nav />
           </div>
