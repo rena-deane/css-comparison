@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Header from './Header'
-import Weather from './Weather'
 import Nav from './Navigation'
 
 export default class App extends Component {

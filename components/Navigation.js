@@ -4,8 +4,8 @@ import { Link } from 'react-router'
 class Nav extends Component {
   render() {
     return (
-      <nav className='navbar navbar-default'>
-        <ul className='nav navbar-nav'>
+      <nav className='navbar'>
+        <ul className='nav-links'>
           <Link to="/" className='nav'><h1>Rangitukia</h1></Link>
           <li><Link to="/marae" className='nav'>Marae</Link></li>
           <li><Link to="/education" className='nav'>Education</Link></li>

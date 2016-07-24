@@ -4,7 +4,7 @@ export default class Church extends Component {
   render (){
     return (
       <div id='church-container'>
-        <h1>Waiapu Pariha</h1>
+        <h2>Waiapu Pariha</h2>
 
         <div className='church-item'>
           <img src='../images/st-johns-church.jpg' alt='Rangitukia church' />
