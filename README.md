@@ -32,17 +32,15 @@ Compass is a stylesheet authoring framework that makes your stylesheets and mark
 ```
 gem install compass
 ```
+If that doesn't work type
+```
+sudo gem install compass
+```
+
 To check if Compass is installed type
 ```
 compass -v
 ```
-
-
-## Prep for Campus Lecture
-- [ ] create a basic react app
-- [ ] use Sass to style
-- [ ] create new `style.sass` file and convert to CSS
-- [ ] Command Line : convert new style to CSS
 
 ###Resources
 - To create logo I used [GraphicSprings](https://www.graphicsprings.com/start-your-logo)
