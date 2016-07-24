@@ -11,7 +11,7 @@ How to use Sass to keep stylesheets well-organised
   - inline imports,
   - and more
 
-## Using Sass
+## Getting started with Sass
 There are different ways to start using Sass
   1. Command Line
   2. Standalone Ruby module
@@ -20,14 +20,26 @@ There are different ways to start using Sass
     * [Koala](http://koala-app.com/) - open source
     * [compass.app](http://compass.kkbox.com/) - Paid, open source
 
-### Install Sass
-#### Command Line
+### Command Line
+#### Install Sass
 - Visit [sass-lang.com/install](http://sass-lang.com/install) for instructions.
 - To check if Sass is installed type
 ```
 sass -v
 ```
 It should return `Sass 3.4.22 (Selective Steve)`
+
+#### Install Compass
+Compass is a stylesheet authoring framework that makes your stylesheets and markup easier to build and maintain.
+
+```
+gem install compass
+```
+To check if Compass is installed type
+```
+compass -v
+```
+
 
 ## Prep for Campus Lecture
 - [ ] create a basic react app
