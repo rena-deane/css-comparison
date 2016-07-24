@@ -44,3 +44,4 @@ compass -v
 
 ###Resources
 - To create logo I used [GraphicSprings](https://www.graphicsprings.com/start-your-logo)
+- [Benefits of SASS](http://www.webinsation.com/benefits-of-using-sass-over-traditional-css/)
