@@ -172,63 +172,69 @@ p {
   width: 100%;
 }*/
 
-@media only screen and (min-width: 400px) {
-    li {
-      font-size: 1.25em
-    }
+@media only screen and (min-width: 750px) {
+  li {
+    font-size: 1.25em
+  }
 
-    img {
-      width: 20%;
-    }
+  img {
+    width: 20%;
+  }
 
-    p#short-date {
-      display: none;
-    }
+  h5 {
+    font-size: 1em
+  }
 
-    p#long-date {
-      display: block;
-    }
+  h6 {
+    font-size: .8em
+  }
 
-    h5 {
-      font-size: 1em
-    }
+  img.icon {
+    width: 20%;
+  }
 
-    h6 {
-      font-size: .8em
-    }
+  .about-item.weather {
+    height: 3em;
+  }
 
-    img.icon {
-      width: 20%;
-    }
+  #header {
+    background-image: url('./images/rangitukia-header.png');
+    background-size: 100% 100%;
+  }
 
-    .about-item.weather {
-      height: 3em;
-    }
+  a.nav {
+    font-size: 1em;
+  }
 
-    #header {
-      background-image: url('./images/rangitukia-header.png');
-      background-size: 100% 100%;
-    }
+  .nav.navbar-nav {
+    height: 2em;
+  }
 
-    a.nav {
-      font-size: 1em;
-    }
+  #about-container {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
 
-    .nav.navbar-nav {
-      height: 2em;
-    }
+  .about-item.one {
+    width: 70%;
+  }
+}
 
-    #about-container {
-      display:flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-      justify-content: center;
-      align-content: center;
-      align-items: center;
-    }
+@media only screen and (min-width: 550px) {
+  p#short-date {
+    display: none;
+  }
 
-    .about-item.one {
-      width: 70%;
-    }
+  p#long-date {
+    display: block;
+  }
+
+  #logo-text {
+    color: white;
+  }
 }
 
